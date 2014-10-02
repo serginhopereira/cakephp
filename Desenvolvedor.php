@@ -1,4 +1,5 @@
 class Desenvolvedor extends AppModel {
+    public $name = 'Desenvolvedor';
 
 public $hasAndBelongsToMany = array(
         'Sistema' =>
